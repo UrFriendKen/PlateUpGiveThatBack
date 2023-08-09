@@ -8,7 +8,7 @@ namespace KitchenGiveThatBack
     {
         public const string MOD_GUID = "IcedMilo.PlateUp.GiveThatBack";
         public const string MOD_NAME = "Give That Back!";
-        public const string MOD_VERSION = "0.1.1";
+        public const string MOD_VERSION = "0.1.2";
         public const string MOD_AUTHOR = "IcedMilo";
 
         public Main()

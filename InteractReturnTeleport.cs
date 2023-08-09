@@ -3,6 +3,7 @@ using Unity.Entities;
 
 namespace KitchenGiveThatBack
 {
+    [UpdateInGroup(typeof(InteractionGroup), OrderFirst = true)]
     public class InteractReturnTeleport : ItemInteractionSystem
     {
         protected override InteractionType RequiredType => InteractionType.Act;
